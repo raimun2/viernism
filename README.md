@@ -1,32 +1,30 @@
-# Fridayism (A DOWism Prototype) 📅
+# Viernism 📅
 
-The standard calendar enforces a Monday (or Sunday) week start. This is a systemic bias—a leftover of industrial-era productivity metrics designed to standardise human output. It ignores a fundamental, albeit entirely arbitrary, reality: your week actually begins on the day (of the week) you were born. I was born on a Friday, so every week in my life has started on Fridays, yet no tools embrace this diversity.
+**We embrace the Friday.**
 
-**DOWism** (Day-of-Week-ism) is the universal framework to correct this. **Fridayism** is my special case of it. 
+The standard calendar is industrial-era propaganda. It forces a Monday start to align your spirit with corporate productivity cycles. 
 
-As a Fridayst, I built Fridayism as a lightweight Chrome Extension that corrects this oversight for the Friday-born (Viernistas) by re-indexing Google Calendar to align with our personal temporal baseline. The underlying personality profiling system predicts human behaviour with the exact same precision as horoscopes, astrological charts, or the Myers-Briggs Type Indicator: **0%**. 
+Viernism is a way of life. It is the fundamental belief that your week should start on the best possible day: Friday. Whether you were born on a Friday (the original Viernistas) or you simply choose to reclaim your time, this is for you. We don't care about your "native" calendar privileges. 
 
-We embrace this.
+Start the week with the right frequency.
 
-## Prerequisite: The 7-Day Hack
-To bypass Google’s hardcoded DOM architecture without breaking the UI, you must force the system into a custom view:
-1. Open Google Calendar > **Settings** (gear icon).
+## The Viernista View
+Native Google Calendar settings only allow for Saturday, Sunday, or Monday as the start of the week. Friday remains technically marginalised. To bypass this architectural bias without breaking the interface, you must force a custom view:
+
+1. Open **Google Calendar** > **Settings**.
 2. Scroll to **View options**.
 3. Under **Set custom view**, select **7 days**.
 
 ## Installation (Developer Mode)
-1. Download this repository as a `.zip` file and extract it.
+1. Clone this repo:  
+   `git clone https://github.com/raimun2/viernism.git`
 2. Navigate to `chrome://extensions/` in your browser.
-3. Toggle **Developer mode** on (top right corner).
-4. Click **Load unpacked** and select the extracted folder.
-5. Open Google Calendar. Your week now begins on Friday.
+3. Toggle **Developer mode** on (top right).
+4. Click **Load unpacked** and select the `viernism` folder.
+5. Refresh Google Calendar. Your week now begins on Friday.
 
-## Contributing: The Path to Universal DOWism
-Currently, this repository only supports Fridayists—originating from a July 1985 realisation. 
-
-The architecture needs to scale to support the broader DOWism framework encompassing Tuesdayism, Wednesdayism, Thursdayism, and Saturdayism (Sunday and Monday already have native privileges and require no intervention). 
-
-Pull Requests to add a UI popup and dynamic day-of-week selection are highly encouraged. Fork the repo, build the UI, and submit a PR to bring true DOWism to the masses.
+## Contributing
+The core logic is currently hardcoded for Friday (the Viernista baseline). While we believe Friday is the objective peak of the week, the framework is technically expandable. PRs are welcome if you can justify why another day deserves a start point, but good luck convincing a Viernista.
 
 ## License
-MIT. Reclaim your time.
+MIT. Reclaim your Friday.
